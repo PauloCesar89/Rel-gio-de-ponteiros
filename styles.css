@@ -1,4 +1,21 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Libre Baskerville', serif, sans-serif;
+}
+
+body{
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 2px solid red;*/
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    background: #8b8888;
+    border-radius: 50%;
 }

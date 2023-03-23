@@ -18,4 +18,11 @@ body{
     height: 400px;
     background: #8b8888;
     border-radius: 50%;
+    position: relative;
+}
+
+.container .number{
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }

@@ -1,4 +1,4 @@
-# Relógio analogico
+# Relógio analógico / DESENVOLVIMENTO ESTÁ EM ANDAMENTO
 
 Relógio que exibe a hora atual com animação de ponteiros.
 

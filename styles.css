@@ -70,3 +70,24 @@ body{
     transform: rotate(0deg);
     color: rgb(141, 4, 4);
 }
+
+.container .hourPointer{
+    background: black;
+    width: 10px;
+    height: 140px;
+    position: absolute;
+    left: 50%;
+    border-radius: 5px;
+    transform: translate(-30%, 45%) rotate(270deg);
+    transform-origin: bottom;
+}
+.container .minutePointer{
+    background: rgb(41, 38, 38);
+    width: 10px;
+    height: 170px;
+    position: absolute;
+    left: 50%;
+    border-radius: 5px;
+    transform: translate(-30%, 20%) rotate(0deg);
+    transform-origin: bottom;
+}

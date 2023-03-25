@@ -88,6 +88,16 @@ body{
     position: absolute;
     left: 50%;
     border-radius: 5px;
-    transform: translate(-30%, 20%) rotate(0deg);
+    transform: translate(-30%, 20%) rotate(90deg);
+    transform-origin: bottom;
+}
+.container .secondPointer{
+    background: rgb(240, 19, 19);
+    width: 3px;
+    height: 170px;
+    position: absolute;
+    left: 50%;
+    border-radius: 5px;
+    transform: translate(-30%, 20%) rotate(60deg);
     transform-origin: bottom;
 }

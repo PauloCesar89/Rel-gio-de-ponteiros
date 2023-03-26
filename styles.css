@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(89, 133, 214);
+    background-color: rgb(57, 192, 226);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -100,4 +100,15 @@ body{
     border-radius: 5px;
     transform: translate(-30%, 20%) rotate(60deg);
     transform-origin: bottom;
+}
+
+.centerClock{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position:absolute;
+    transform: translate(-30%, 60%);
+    left: 50%;
+    bottom: 50%;
 }

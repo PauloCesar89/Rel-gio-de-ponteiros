@@ -1,16 +1,10 @@
-const sec = document.querySelector('.secondPointer');
+setInterval(() =>{
 
-function timer(){
-    const time = new Date();
+    const secondPointer = document.querySelector('.secondPointer');
 
-    seconds: time.getSeconds();
+    horario = new Date();
+    second = horario.getSeconds();
 
-}
-
-setInterval( () =>{
-
-    const {seconds} = timer();
-
-    sec.Style.transform = `translate(-30%, 20%) rotate(${seconds} deg)`;
-
+    secondPointer.style.transform = `rotate(${second}deg)`;
+    
 }, 1000);

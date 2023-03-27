@@ -78,7 +78,7 @@ body{
     position: absolute;
     left: 50%;
     border-radius: 5px;
-    transform: translate(-30%, 45%) rotate(270deg);
+    transform: translate(-30%, 45%) rotate(0deg);
     transform-origin: bottom;
 }
 .container .minutePointer{
@@ -88,7 +88,7 @@ body{
     position: absolute;
     left: 50%;
     border-radius: 5px;
-    transform: translate(-30%, 20%) rotate(90deg);
+    transform: translate(-30%, 20%) rotate(0deg);
     transform-origin: bottom;
 }
 .container .secondPointer{
@@ -98,7 +98,7 @@ body{
     position: absolute;
     left: 50%;
     border-radius: 5px;
-    transform: translate(-30%, 20%) rotate(60deg);
+    transform: translate(-30%, 20%) rotate(0deg);
     transform-origin: bottom;
 }
 

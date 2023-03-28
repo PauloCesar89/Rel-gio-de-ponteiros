@@ -1,19 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Libre Baskerville', serif, sans-serif;
 }
 
-body{
+body {
     background-color: rgb(57, 192, 226);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /*border: 2px solid red;*/
+    /* border: 2px solid red; */
 }
 
-.container{
+.container {
     width: 400px;
     height: 400px;
     background: #ffffff;
@@ -22,7 +22,7 @@ body{
     border: 5px solid black;
 }
 
-.container .number{
+.container .number {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -30,85 +30,101 @@ body{
     font-size: 30px;
 }
 
-.num1{
+.num1 {
     transform: rotate(30deg);
+
 }
-.num2{
+
+.num2 {
     transform: rotate(60deg);
+
 }
-.num3{
+
+.num3 {
     transform: rotate(90deg);
     color: rgb(141, 4, 4);
+
 }
-.num4{
+
+.num4 {
     transform: rotate(120deg);
 }
-.num5{
+
+.num5 {
     transform: rotate(150deg);
 }
-.num6{
+
+.num6 {
     transform: rotate(180deg);
     color: rgb(141, 4, 4);
 }
-.num7{
+
+.num7 {
     transform: rotate(210deg);
 }
-.num8{
+
+.num8 {
     transform: rotate(240deg);
 }
-.num9{
+
+.num9 {
     transform: rotate(270deg);
     color: rgb(141, 4, 4);
 }
-.num10{
+
+.num10 {
     transform: rotate(300deg);
 }
-.num11{
+
+.num11 {
     transform: rotate(330deg);
 }
-.num12{
+
+.num12 {
     transform: rotate(0deg);
     color: rgb(141, 4, 4);
 }
 
-.container .hourPointer{
+.container .hourPointer {
     background: black;
     width: 10px;
     height: 140px;
     position: absolute;
     left: 50%;
     border-radius: 5px;
-    transform: translate(-30%, 45%) rotate(0deg);
+    /* transform: translate(-50%, 45%) rotate(0deg); */
     transform-origin: bottom;
 }
-.container .minutePointer{
+
+.container .minutePointer {
     background: rgb(41, 38, 38);
     width: 10px;
     height: 170px;
     position: absolute;
     left: 50%;
     border-radius: 5px;
-    transform: translate(-30%, 20%) rotate(0deg);
+    /* transform: translate(-50%, 20%) rotate(0deg); */
     transform-origin: bottom;
 }
-.container .secondPointer{
+
+.container .secondPointer {
     background: rgb(240, 19, 19);
     width: 3px;
     height: 170px;
     position: absolute;
     left: 50%;
     border-radius: 5px;
-    transform: translate(-30%, 20%) rotate(0deg);
+    /* transform: translate(-50%, 20%) rotate(0deg); */
     transform-origin: bottom;
 }
 
-.centerClock{
+.centerClock {
     background-color: black;
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    position:absolute;
-    transform: translate(-30%, 60%);
+    position: absolute;
+    transform: translate(-50%, 70%);
     left: 50%;
     bottom: 50%;
 }
